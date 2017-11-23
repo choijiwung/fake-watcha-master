@@ -5,7 +5,7 @@ gem 'pg', group: :production
 gem 'faker'
 gem 'fog-aws'
 gem "mini_magick"
-
+gem 'aws-sdk-rails' #aws 쓸때 쓰는 쨈
 # 회원인증 및 권한설정을 위한 젬
 gem 'devise'     # 회원가입 및 인증
 gem 'rolify'     # role 관리
